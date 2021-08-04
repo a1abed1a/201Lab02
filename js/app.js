@@ -13,6 +13,7 @@ question2();
 question3();
 question4();
 question5();
+question6();
 
 function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
@@ -74,6 +75,7 @@ if(q5 == "yes" || q5 == "y"){
 }
 }
 
+function question6(){
 alert("Lets play rock paper scissors.");
 for(let chances = 4; chances>0; chances--){
     let userChoice = Number(prompt("Chances : "+chances+"\nChoice one as a number:\n1.Rock\n2.Paper\n3.Scissors"));
@@ -111,7 +113,7 @@ for(let chances = 4; chances>0; chances--){
         }
     }
 }
-
+}
 let list = ["LAID-BACK CAMP","JUJUTSU KAISEN","MY HERO ACADEMIA","ODD TAXI","SK8 THE INFINITY","Naruto","HORIMIYA","One Punch Man","Dororo","Pokémon"];
 let Rlist = ["JUJUTSU KAISEN","Naruto","One Punch Man"];
 for(let i = 6; i > 0;i--){
