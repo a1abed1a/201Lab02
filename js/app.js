@@ -12,6 +12,7 @@ question1();
 question2();
 question3();
 question4();
+question5();
 
 function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
@@ -61,6 +62,7 @@ if(q4 == "yes" || q4 == "y"){
 }
 }
 
+function question5(){
 let q5 = prompt("Lastly Do you think i can solve a rubix cube?").toLowerCase();
 if(q5 == "yes" || q5 == "y"){
     alert("True");
@@ -69,6 +71,7 @@ if(q5 == "yes" || q5 == "y"){
 } else if(q5 == "no" || q5 == "n"){ 
     alert("False"); 
     console.log("False");
+}
 }
 
 alert("Lets play rock paper scissors.");
