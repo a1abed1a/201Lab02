@@ -14,6 +14,7 @@ question3();
 question4();
 question5();
 question6();
+question7();
 
 function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
@@ -114,8 +115,11 @@ for(let chances = 4; chances>0; chances--){
     }
 }
 }
+
+function question7(){
 let list = ["LAID-BACK CAMP","JUJUTSU KAISEN","MY HERO ACADEMIA","ODD TAXI","SK8 THE INFINITY","Naruto","HORIMIYA","One Punch Man","Dororo","Pokémon"];
 let Rlist = ["JUJUTSU KAISEN","Naruto","One Punch Man"];
+
 for(let i = 6; i > 0;i--){
     let q7 = prompt("Chances : "+ i +"\nGuess an anime that I finished from the lest:"+"\n-"+list[0]+"\n-"+list[1]+"\n-"+list[2]+"\n-"+list[3]+"\n-"+list[4]+"\n-"+list[5]+"\n-"+list[6]+"\n-"+list[7]+"\n-"+list[8]+"\n-"+list[9]);
     while(!q7){
@@ -136,5 +140,6 @@ for(let i = 6; i > 0;i--){
         points++;
         break;
     }
+}
 }
 alert(name+", your score is "+points+" out of 7");
