@@ -7,6 +7,9 @@ while(!name){
 
 alert(name.toUpperCase()+"!!\nReady or not here we go");
 alert("y/n or yes/no responses only!!\nElse you won't git a point.")
+question1();
+
+function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
 if(q1 == "yes" || q1 == "y"){ 
     alert("False"); 
@@ -16,7 +19,7 @@ if(q1 == "yes" || q1 == "y"){
     console.log("True");
     points++;
 }
-
+}
 let q2 = prompt("Do you think I'm taller than 1.70?").toLowerCase();
 if(q2 == "yes" || q2 == "y"){
     alert("True");
