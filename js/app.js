@@ -10,6 +10,7 @@ alert("y/n or yes/no responses only!!\nElse you won't git a point.")
 
 question1();
 question2();
+question3();
 
 function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
@@ -35,6 +36,7 @@ if(q2 == "yes" || q2 == "y"){
 }
 }
 
+function question3(){
 let q3 = prompt("Do you think I love video games?").toLowerCase();
 if(q3 == "yes" || q3 == "y"){
     alert("True");
@@ -43,6 +45,7 @@ if(q3 == "yes" || q3 == "y"){
 } else if(q3 == "no" || q3 == "n"){ 
     alert("False"); 
     console.log("False");
+}
 }
 
 let q4 = prompt("Do you think my hair is brown?").toLowerCase();
