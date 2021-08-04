@@ -121,10 +121,10 @@ let list = ["LAID-BACK CAMP","JUJUTSU KAISEN","MY HERO ACADEMIA","ODD TAXI","SK8
 let Rlist = ["JUJUTSU KAISEN","Naruto","One Punch Man"];
 
 for(let i = 6; i > 0;i--){
-    let q7 = prompt("Chances : "+ i +"\nGuess an anime that I finished from the lest:"+"\n-"+list[0]+"\n-"+list[1]+"\n-"+list[2]+"\n-"+list[3]+"\n-"+list[4]+"\n-"+list[5]+"\n-"+list[6]+"\n-"+list[7]+"\n-"+list[8]+"\n-"+list[9]);
+    let q7 = prompt("Chances : "+ i +"\nGuess an anime that I finished from the list:"+"\n-"+list[0]+"\n-"+list[1]+"\n-"+list[2]+"\n-"+list[3]+"\n-"+list[4]+"\n-"+list[5]+"\n-"+list[6]+"\n-"+list[7]+"\n-"+list[8]+"\n-"+list[9]);
     while(!q7){
-        alert("Choice one from the lest.");
-        q7 = prompt("Chances : "+ i +"\nGuess an anime that I finished from the lest:"+"\n-"+list[0]+"\n-"+list[1]+"\n-"+list[2]+"\n-"+list[3]+"\n-"+list[4]+"\n-"+list[5]+"\n-"+list[6]+"\n-"+list[7]+"\n-"+list[8]+"\n-"+list[9]);
+        alert("Choice one from the list.");
+        q7 = prompt("Chances : "+ i +"\nGuess an anime that I finished from the list:"+"\n-"+list[0]+"\n-"+list[1]+"\n-"+list[2]+"\n-"+list[3]+"\n-"+list[4]+"\n-"+list[5]+"\n-"+list[6]+"\n-"+list[7]+"\n-"+list[8]+"\n-"+list[9]);
     }
     let b;
     for(let x = 0; x < Rlist.length; x++){
