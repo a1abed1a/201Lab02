@@ -20,10 +20,8 @@ function question1(){
 let q1 = prompt("Do you think I'm older than 25?").toLowerCase();
 if(q1 == "yes" || q1 == "y"){ 
     alert("False"); 
-    console.log("False");
 } else if(q1 == "no" || q1 == "n"){ 
     alert("True");
-    console.log("True");
     points++;
 }
 }
@@ -32,11 +30,9 @@ function question2(){
 let q2 = prompt("Do you think I'm taller than 1.70?").toLowerCase();
 if(q2 == "yes" || q2 == "y"){
     alert("True");
-    console.log("True");
     points++;
 } else if(q2 == "no" || q2 == "n"){ 
     alert("False"); 
-    console.log("False");
 }
 }
 
@@ -44,11 +40,9 @@ function question3(){
 let q3 = prompt("Do you think I love video games?").toLowerCase();
 if(q3 == "yes" || q3 == "y"){
     alert("True");
-    console.log("True");
     points++;
 } else if(q3 == "no" || q3 == "n"){ 
     alert("False"); 
-    console.log("False");
 }
 }
 
@@ -56,10 +50,8 @@ function question4(){
 let q4 = prompt("Do you think my hair is brown?").toLowerCase();
 if(q4 == "yes" || q4 == "y"){ 
     alert("False"); 
-    console.log("False");
 } else if(q4 == "no" || q4 == "n"){ 
     alert("True");
-    console.log("True");
     points++;
 }
 }
@@ -68,11 +60,9 @@ function question5(){
 let q5 = prompt("Lastly Do you think i can solve a rubix cube?").toLowerCase();
 if(q5 == "yes" || q5 == "y"){
     alert("True");
-    console.log("True");
     points++;
 } else if(q5 == "no" || q5 == "n"){ 
     alert("False"); 
-    console.log("False");
 }
 }
 
